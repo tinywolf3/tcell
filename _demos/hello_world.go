@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Copyright 2020 The TCell Authors
@@ -20,10 +21,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gdamore/tcell/v2"
-	"github.com/gdamore/tcell/v2/encoding"
+	"github.com/tinywolf3/tcell/v2"
+	"github.com/tinywolf3/tcell/v2/encoding"
 
-	"github.com/mattn/go-runewidth"
+	"github.com/tinywolf3/runewidth"
 )
 
 func emitStr(s tcell.Screen, x, y int, style tcell.Style, str string) {

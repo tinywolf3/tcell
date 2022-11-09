@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/v2/terminfo"
+	"github.com/tinywolf3/tcell/v2/terminfo"
 )
 
 type termcap struct {

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gdamore/tcell/v2"
-	"github.com/gdamore/tcell/v2/encoding"
+	"github.com/tinywolf3/tcell/v2"
+	"github.com/tinywolf3/tcell/v2/encoding"
 
-	"github.com/mattn/go-runewidth"
+	"github.com/tinywolf3/runewidth"
 )
 
 func emitStr(s tcell.Screen, x, y int, style tcell.Style, str string) int {
@@ -48,7 +48,7 @@ func displayDemo(s tcell.Screen) {
 	style := tcell.StyleDefault
 	x := (w - 55) / 2
 	x = emitStr(s, x, h/2, style, "Please visit the ")
-	x = emitStr(s, x, h/2, style.Url("https://github.com/gdamore/tcell"), "GitHub Repository")
+	x = emitStr(s, x, h/2, style.Url("https://github.com/tinywolf3/tcell"), "GitHub Repository")
 	emitStr(s, x, h/2, style, " for the source code.")
 	style = tcell.StyleDefault.Foreground(tcell.ColorCadetBlue.TrueColor()).Background(tcell.ColorWhite)
 	emitStr(s, (w-18)/2, h/2+2, style, "Press ESC to exit.")

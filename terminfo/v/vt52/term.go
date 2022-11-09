@@ -2,7 +2,7 @@
 
 package vt52
 
-import "github.com/gdamore/tcell/v2/terminfo"
+import "github.com/tinywolf3/tcell/v2/terminfo"
 
 func init() {
 

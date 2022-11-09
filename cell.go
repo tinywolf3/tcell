@@ -15,7 +15,7 @@
 package tcell
 
 import (
-	runewidth "github.com/mattn/go-runewidth"
+	runewidth "github.com/tinywolf3/runewidth"
 )
 
 type cell struct {

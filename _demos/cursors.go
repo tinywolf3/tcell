@@ -20,7 +20,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gdamore/tcell/v2"
+	"github.com/tinywolf3/tcell/v2"
 	"os"
 )
 
